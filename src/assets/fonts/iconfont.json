@@ -6,6 +6,48 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "24916833",
+      "name": "卡片1",
+      "font_class": "kapian1",
+      "unicode": "e724",
+      "unicode_decimal": 59172
+    },
+    {
+      "icon_id": "24916966",
+      "name": "表单标签",
+      "font_class": "biaodanbiaoqian",
+      "unicode": "e72b",
+      "unicode_decimal": 59179
+    },
+    {
+      "icon_id": "24916968",
+      "name": "表格1",
+      "font_class": "biaoge1",
+      "unicode": "e72c",
+      "unicode_decimal": 59180
+    },
+    {
+      "icon_id": "24916979",
+      "name": "多人",
+      "font_class": "duoren",
+      "unicode": "e72d",
+      "unicode_decimal": 59181
+    },
+    {
+      "icon_id": "24917066",
+      "name": "app",
+      "font_class": "app",
+      "unicode": "e739",
+      "unicode_decimal": 59193
+    },
+    {
+      "icon_id": "24917073",
+      "name": "T恤",
+      "font_class": "Txu",
+      "unicode": "e73a",
+      "unicode_decimal": 59194
+    },
+    {
       "icon_id": "1727458",
       "name": "224用户-线性",
       "font_class": "yonghu-xianxing",
