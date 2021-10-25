@@ -10,7 +10,7 @@
     <!-- 卡片视图区 -->
     <el-card class="box-card">
       <!-- 搜索与添加区 -->
-      <el-row>
+      <el-row class="user_head">
         <el-col :span="8">
           <el-input
             placeholder="请输入内容"
@@ -25,7 +25,7 @@
             ></el-button>
           </el-input>
         </el-col>
-        <el-col :span="3">
+        <el-col :span="3" class="btn">
           <el-button type="success" @click="addDialogVisible = true"
             >添加用户</el-button
           >
@@ -338,7 +338,7 @@ export default {
       }
       this.userlist = res.data.users;
       this.total = res.data.total;
-      console.log(res);
+      // console.log(res);
     },
     // 监听pagesize改变的事件
     handleSizeChange(newsize) {
@@ -386,7 +386,7 @@ export default {
     async showEditDiaLog(id) {
       const { data: res } = await this.$http.get("users/" + id);
       if (res.meta.status !== 200) {
-        console.log(res);
+        // console.log(res);
         return this.$message.error("查询失败");
       }
       this.editForm = res.data;
@@ -482,4 +482,10 @@ export default {
 </script>
 
 <style scoped>
+.user_head {
+  margin-bottom: 20px;
+}
+.btn {
+  margin-left: 10px;
+}
 </style>

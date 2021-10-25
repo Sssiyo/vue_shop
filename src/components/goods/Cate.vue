@@ -62,7 +62,6 @@
       <!-- 分页区 -->
       <el-pagination
         class="treetable"
-        @size-change="handleSizeChange"
         @current-change="handleCurrentChange"
         :current-page="querInfo.pagenum"
         :page-sizes="[3, 5, 10]"

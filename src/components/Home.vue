@@ -99,7 +99,7 @@ export default {
       if (res.meta.status !== 200)
         return this.$message.console.error(res.meta.msg);
       this.menulist = res.data;
-      console.log(res);
+      // console.log(res);
     },
   },
 };
@@ -112,21 +112,21 @@ export default {
 .el-header {
   display: flex;
   justify-content: space-between;
-  padding-left: 0;
+  /* padding-left: 0; */
   align-items: center;
   background-color: #17a783;
   color: #333;
   font-size: 20px;
-  text-align: center;
-  line-height: 60px;
+  /* text-align: center; */
+  /* line-height: 60px; */
 }
-.el-header div {
+/* .el-header div {
   display: flex;
   align-items: center;
-}
-.el-header div span {
+} */
+/* .el-header div span {
   margin-left: 15px;
-}
+} */
 .toggle-button {
   background-color: #4a5;
 }
@@ -148,8 +148,8 @@ export default {
 .el-main {
   background-color: #b4e2da;
   color: #333;
-  text-align: center;
-  line-height: 160px;
+  /* text-align: center; */
+  /* line-height: 160px; */
 }
 .iconfont {
   margin-right: 10px;

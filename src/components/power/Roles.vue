@@ -11,7 +11,7 @@
     <el-card>
       <el-row>
         <el-col>
-          <el-button type="success">添加角色</el-button>
+          <el-button type="success" class="btn">添加角色</el-button>
         </el-col>
       </el-row>
 
@@ -233,6 +233,9 @@ export default {
 </script>
 
 <style>
+.btn {
+  margin-bottom: 10px;
+}
 .el-tag {
   margin: 7px;
 }
