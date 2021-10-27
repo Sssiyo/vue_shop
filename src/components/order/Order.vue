@@ -201,8 +201,7 @@ export default {
 </script>
 
 <style scoped>
-/* @import "../../plugins/timeline/timeline.css";
-@import "../../plugins/timeline-item/timeline-item.css"; */
+/*  */
 
 .el-cascader {
   width: 100%;
